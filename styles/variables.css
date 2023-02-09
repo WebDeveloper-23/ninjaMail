@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap');
+:root{
+    --background: #f6f3f3;
+    --green:#4BA87D;
+    --hover: #228a5a;
+    --white:#FFFFFF;
+    --black: #212020;
+    --cardsmall:16px;
+    --small:18px;
+    --medium:19px;
+    --lage:42px;
+    --extralarge:61px;
+    --btfontsize:21px;
+    --font1:'Raleway';
+    --font2:'Overpass';
+    --border:#9F9F9F;
+    --greenbg:#caeac7;
+
+    --icon:34px;
+
+    --leptop:1250px;
+    --tablet:800px;
+    --mobile:500px;
+}
+
+
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:1350px){
+    .container{
+        max-width: 1300px;
+        width: 100%;
+        padding: 0 25px;
+    }
+}
+@media screen and (max-width:850px){
+    .container{
+        max-width: 90%;
+        width: 100%;
+        padding: 0 25px;
+    }
+}
+
+.container2{
+    max-width:950px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1350px){
+    .container2{
+        max-width: 1050px;
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .container2{
+        max-width: 90%;
+        width: 100%;
+        padding: 0 20px;
+    }
+}
